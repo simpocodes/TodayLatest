@@ -1,0 +1,253 @@
+
+@keyframes reduce-width{
+    from{
+        width: 100%;
+    }
+}
+@-webkit-keyframes reduce-width{
+    from{
+        width: 100%;
+    }
+}
+ @-moz-keyframes reduce-width{
+    from{
+        width: 100%;
+    }
+}
+@-o-keyframes reduce-width{
+    from{
+        width: 100%;
+    }
+}
+
+//* ----------- hide for 10 seconds
+@keyframes hide-10s  {
+    0%{
+        opacity: 0;
+        
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@-webkit-keyframes  hide-10s {
+     0% {
+         opacity: 0;
+
+     }
+
+     100% {
+         opacity: 1;
+     }
+ }
+
+ @-moz-keyframes  hide-10s {
+     0% {
+         opacity: 0;
+     }
+
+     100% {
+         opacity: 1;
+     }
+ }
+
+@-o-keyframes  hide-10s {
+     0% {
+         opacity: 0;
+     }
+     100% {
+         opacity: 1;
+     }
+ }
+
+//* ------- showing nav on mobile devices
+@keyframes showUlMobile {
+    from{
+        opacity: 0;
+        transform: translateX(200px);
+    }
+}
+@-webkit-keyframes showUlMobile {
+    from{
+        opacity: 0;
+        transform: translateX(200px);
+    }
+}
+ @-moz-keyframes showUlMobile {
+    from{
+        opacity: 0;
+        transform: translateX(200px);
+    }
+}
+@-o-keyframes showUlMobile {
+    from{
+        opacity: 0;
+        transform: translateX(200px);
+    }
+}
+
+
+//* ------- showing social media on mobile devices
+@keyframes showSMediaMobile {
+    from{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+}
+@-webkit-keyframes showSMediaMobile {
+    from{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+}
+ @-moz-keyframes showSMediaMobile {
+    from{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+}
+@-o-keyframes showSMediaMobile {
+    from{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+}
+
+
+//* -------- fromTop eg "the sticky nav"
+@keyframes fromTop {
+    from {
+        transform: translateY(-100px)
+    }
+}
+@-webkit-keyframes fromTop {
+    from {
+        transform: translateY(-100px)
+    }
+}
+ @-moz-keyframes fromTop {
+    from {
+        transform: translateY(-100px)
+    }
+}
+@-o-keyframes fromTop {
+    from {
+        transform: translateY(-100px)
+    }
+}
+//* --------- showPersonProfile
+@keyframes msg {
+    to {
+        transform: translate(-50%, -60%);
+    }
+}
+@-webkit-keyframes msg {
+    to {
+        transform: translate(-50%, -60%);
+    }
+}
+ @-moz-keyframes msg {
+    to {
+        transform: translate(-50%, -60%);
+    }
+}
+@-o-keyframes msg {
+    to {
+        transform: translate(-50%, -60%);
+    }
+}
+
+
+//* ----------- scale up
+@keyframes scale {
+    to {
+        transform: scale(1.27, 1.27);
+    }
+}
+@-webkit-keyframes scale {
+    to {
+        transform: scale(1.27, 1.27);
+    }
+}
+ @-moz-keyframes scale {
+    to {
+        transform: scale(1.27, 1.27);
+    }
+}
+@-o-keyframes scale {
+    to {
+        transform: scale(1.27, 1.27);
+    }
+}
+
+
+@keyframes in-out {
+    from{
+transform: scale(.6, .6);
+    }
+    to{
+transform: scale(1,1);
+    }
+}
+@-webkit-keyframes in-out {
+    from{
+transform: scale(.6, .6);
+    }
+    to{
+transform: scale(1,1);
+    }
+}
+ @-o-keyframes in-out {
+    from{
+transform: scale(.6, .6);
+    }
+    to{
+transform: scale(1,1);
+    }
+}
+ @-moz-keyframes in-out {
+    from{
+transform: scale(.6, .6);
+    }
+    to{
+transform: scale(1,1);
+    }
+}
+
+
+@keyframes fadeOut {
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        display: none;
+    }
+}
+@-webkit-keyframes fadeOut {
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        display: none;
+    }
+}
+ @-moz-keyframes fadeOut {
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        display: none;
+    }
+}
+@-o-keyframes fadeOut {
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        display: none;
+    }
+}

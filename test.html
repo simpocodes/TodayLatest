@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="BOOTSRAP/css/bootstrap.css">
+    <link rel="stylesheet" href="../../../TOOLS/VENDOR/BOOTSRAP-ICONS/bootstrap-icons.css">
+    <link rel="stylesheet" href="../../../TOOLS/FONTAWESOME/css/all.css">
+    <link rel="stylesheet" href="../../../TOOLS/FONTAWESOME/css/fontawesome.css">
+    <link rel="stylesheet"
+        href="../../../TOOLS/FONTAWESOME/css/fontawesome.min.css">
+</head>
+<style>
+    i,
+    span{
+        width: 50px;
+        height: 50px;
+        background-color: aqua;
+        color: black;
+    }
+</style>
+<body>
+   <div class="container-fluid bg-dark text-white p-0">
+    <nav class="bg-success p-3 sticky-top">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit praesentium esse ad delectus quisquam dolorem aut veniam nam laborum deleniti possimus eum, eius consequatur eaque hic iste voluptates iure! Quibusdam? =>
+    </nav>
+
+    <div class="container">
+        </p>
+        <i class="bi bi-umbrella"></i>      
+        <span class="fa fa-navicon nav-icon menu"></span>
+        <span data-aos="fade-right" data-aos-delay="2400"><i
+                class="fa fa-thumbs-down"></i></span>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, praesentium est possimus optio dolor hic illum! Necessitatibus sed quidem reiciendis nesciunt inventore, provident nisi natus maiores recusandae similique minus  esse? Quasi dolores recusandae voluptates rem quae, ad aperiam fuga, illo doloremque, earum quod aspernatur blanditiis non veniam consequuntur eum quidem aliquam hic inventore modi laudantium? Eaque asperiores praesentium nisillo, repellat adipisci laboriosam explicabo mollitia, iure exercitationem necessitatibus ipsum tempora accusantium cupiditate molestiae temporibus. Numquam, vel magni? Nam blanditiis distinctio dignissimos culpa voluptas numquam, molestias sequi eaque perferendis tempora, at illo sed possimus aspernatur consequuntur nulla nctio earum quis itaque.</p>
+
+        <button class="btn btn-success my-4" onclick="assignPage()">Assign new document</button>
+        <button class="btn btn-primary my-4" onclick="reloadPage()">Reload page</button>
+        <button class="btn btn-danger my-4" onclick="replacePage()">Replace page</button>
+    </div>
+   </div>
+    
+
+
+
+    <!-- <script src="../../../../NEW/TOOLS/BOOTSTRAP/dist/js/bootstrap.bundle.js"></script> -->
+
+<script src="../../../TOOLS/FONTAWESOME/js/all.js"></script>
+<script src="../../../TOOLS/FONTAWESOME/js/fontawesome.min.js"></script>
+    <script>
+        //------- assign new page
+        function assignPage(){
+            location.assign('index.html')
+        }
+
+        //------- reload page
+        function reloadPage(){
+            location.reload();
+
+        }
+        function replacePage(){
+            location.replace('index.html');
+        }
+    </script>
+</body>
+</html>
